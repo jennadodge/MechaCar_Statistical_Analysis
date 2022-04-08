@@ -46,3 +46,20 @@ The p-value of p = 0.6072 is well above the significance level of p=0.05, so we 
 ![T-test Lot 3](images/t_test_lot_3.png)
 The p-value of p = 0.04168 is less than the significance level of p=0.05, so we reject the null hypothesis. The mean of Lot 3 is statistically different than the population mean of 1500.  
 
+## Study Design: MechaCar vs Competition
+To further explore, understand, and describe the advantages of MechaCar over the competition, further exploratory analysis needs to be done. One of the most important questions a consumer has when purchasing a new car is fuel economy around town and on the highway. 
+
+### Metrics
+To gather this information, we will test the fuel economy, measured of miles per gallon, of MechaCar and the Competition, both around town and on the highway. Drivers and driving routes will be standardized for both test groups to minimize outside variables.
+
+### Hypotheses
+- The Null Hypothesis H is that there is no difference in fuel economy between MechaCar and the Competition.
+- The Alternative Hypothesis is that MechaCar has better fuel economy (measured as greater miles per gallon) than the Competition.
+
+### Statistical Test
+To determine whether there is a statistical difference between the distribution means of the two samples we will use a Two-Sample t-Test.
+
+### Data
+In order to run the statistical tests we will need to gather data on the fuel economy (miles per gallon) of MechaCar and fuel economy (miles per gallon) of the competitor's vehicles.
+
+Because we are interested in both fuel economy in town and on the highway, we will have two separate datasets to compare between the samples, as well as a dataset that includes the overall fuel economy. 
