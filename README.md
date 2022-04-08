@@ -31,4 +31,18 @@ The following table shows the summary statistics (mean, median, variance, standa
 - Lot 2 has a variance of less than 7.5 PSI and therefore Lot 2 DOES meet the design specifications.
 - Lot 3 has a variance of 170.3 PSI and therefore DOES NOT meet the design specification of a variance of no more than 100 PSI. 
 
+## T-tests on Suspension Coils
+Next, I used a t-test to determine if the manufacturing lots are statistically different from the population mean. The null hypothesis is that there is no statistical difference between the mean of the PSI for the suspension coil lots and that of the population mean (1500 PSI).
+#### T-test on All Lots
+![T-test All Lots](images/t_test_all_lots.png)
+The p-value of p = 0.06028 is above the significance level of p=0.05, so we neglect to reject the null hypothesis. The mean of all lots is not statistically different than the population mean.
+#### T-test on Lot 1
+![T-test Lot 1](images/t_test_lot_1.png)
+The p-value of p = 1 is well above the significance level of p=0.05, so we neglect to reject the null hypothesis. The mean of Lot 1 is not statistically different than the population mean. 
+#### T-test on Lot 2
+![T-test Lot 2](images/t_test_lot_2.png)
+The p-value of p = 0.6072 is well above the significance level of p=0.05, so we neglect to reject the null hypothesis. The mean of Lot 2 is not statistically different than the population mean. 
+#### T-test on Lot 3
+![T-test Lot 3](images/t_test_lot_3.png)
+The p-value of p = 0.04168 is less than the significance level of p=0.05, so we reject the null hypothesis. The mean of Lot 3 is statistically different than the population mean of 1500.  
 
